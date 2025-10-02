@@ -1,0 +1,19 @@
+{
+  "name": "photo-viewer-lite",
+  "version": "1.0.0",
+  "description": "Um visualizador de imagens simples feito com Electron.",
+  "main": "photo-viewer-lite/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.0"
+  },
+  "dependencies": {
+    "electron-store": "^11.0.0",
+    "image-size": "^2.0.2"
+  }
+}

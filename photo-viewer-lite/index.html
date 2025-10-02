@@ -1,0 +1,56 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PhotoViewer Lite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ===================== BARRA DE TÍTULO PERSONALIZADA ===================== -->
+    <header id="title-bar">
+        <div id="title-container">
+            <img src="./assets/icon.png" id="title-bar-icon" alt="Ícone do PhotoViewer Lite">
+            <div id="title">PhotoViewer Lite</div>
+        </div>
+        <div id="title-bar-btns">
+            <button id="minimize-btn" aria-label="Minimizar">-</button>
+            <button id="max-restore-btn" aria-label="Maximizar ou Restaurar">□</button>
+            <button id="close-btn" aria-label="Fechar">×</button>
+        </div>
+    </header>
+
+    <!-- ===================== CONTEÚDO PRINCIPAL ===================== -->
+    <main id="main-content">
+        <!-- Seção para exibir a imagem -->
+        <section id="image-container">
+            <p>Clique em "Abrir Imagem" para começar.</p>
+            <img id="image-display" src="" alt="Imagem carregada" style="display: none;">
+        </section>
+
+        <!-- Barra lateral com informações e controles -->
+        <aside id="info-container">
+            <button id="open-image-btn">Abrir Imagem</button>
+            <div id="image-details-wrapper">
+                <h3>Detalhes da Imagem</h3>
+                <div id="image-details">
+                    <p>Nenhuma imagem carregada.</p>
+                </div>
+                <button id="about-btn">Sobre</button>
+            </div>
+        </aside>
+    </main>
+
+    <!-- ===================== BARRA DE STATUS ===================== -->
+    <footer id="status-bar">
+        <span id="status-text">Pronto</span>
+    </footer>
+
+    <!-- ===================== CONTEÚDO DA JANELA DE PREVIEW ===================== -->
+    <div id="preview-content" style="display: none;">
+        <img id="preview-image" src="" alt="Preview">
+    </div>
+
+    <script src="./renderer.js"></script>
+</body>
+</html>

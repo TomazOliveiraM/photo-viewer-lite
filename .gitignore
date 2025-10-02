@@ -1,0 +1,10 @@
+# Arquivos de log
+logs
+*.log
+npm-debug.log*
+
+# Dependências
+node_modules
+
+# Arquivos de configuração do Electron Store
+*.json.bak

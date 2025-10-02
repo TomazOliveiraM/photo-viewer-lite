@@ -1,0 +1,26 @@
+{
+  "name": "photo-viewer-lite",
+  "version": "1.0.0",
+  "description": "Um visualizador de imagens simples feito com Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": {
+    "name": "Tomaz Oliveira",
+    "email": "seu-email@exemplo.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomazOliveiraM/photo-viewer-lite.git"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0"
+  },
+  "dependencies": {
+    "electron-store": "^11.0.0",
+    "image-size": "^2.0.2"
+  }
+}
